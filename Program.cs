@@ -1,11 +1,9 @@
-﻿int num1 = 0;
-int num2 = 0;
-int max = num1;
-int min = num2;
-if (int.TryParse(Console.ReadLine(), out num1)) > (int.TryParse(Console.ReadLine(), out num2)) {
-    Console.WriteLine(max);
-}
-else {
-    max = num2;
-    Console.Write(max);
-}
+﻿int num = 0; int.TryParse(Console.ReadLine(), out num);
+    if (num % 2 == 0)
+    {
+        Console.Write("True");
+    }
+    else
+    {
+        Console.Write("False");
+    }
